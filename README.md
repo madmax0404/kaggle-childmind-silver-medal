@@ -108,7 +108,7 @@ This project followed a comprehensive machine learning pipeline:
         * ![Optuna hyperparameter tuning 2](<images/max_depth_optuna_visualization.png>)
         * ![Optuna hyperparameter tuning 3](<images/subsample_optuna_visualization.png>)
     * Used SHAP(SHapley Additive exPlanations) for feature selection, a state-of-the-art open source library for explaining machine learning model outputs. https://shap.readthedocs.io/
-        * ![SHAP feature importance](<images/images/feature_importance.png>)
+        * ![SHAP feature importance](<images/feature_importance.png>)
 
 6.  **Model Evaluation:**
     * Evaluated the final model performance on an unseen test set using QWK, the primary competition metric.
