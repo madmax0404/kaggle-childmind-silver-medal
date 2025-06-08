@@ -121,6 +121,7 @@ This project followed a comprehensive machine learning pipeline:
 * **[My Key Insight 2]:** Given the high proportion of null values in the dataset and only a limited number of participants were given an accelerometer, moderate model performance was expected. With a better quality data, high performing model creation seems certainly achievable.
 * **Model Performance Visualization Example Image:**
     * ![Training and validation loss & validation QWK score](<images/Screenshot from 2025-06-08 19-49-23.png>)
+* Deep learning model (TabNet) didn't work.
 
 ## 6. Conclusion & Future Work
 
@@ -128,7 +129,7 @@ This project successfully developed a predictive model for Problematic Internet 
 
 **Future Enhancements could include:**
 * Integrating external datasets for transfer learning or data augmentation.
-* Conducting more in-depth feature importance analysis to identify critical biomarkers of PIU.
+* Conducting more in-depth feature importance analysis to identify critical indicators of PIU.
 * Investigating explainable AI (XAI) techniques to make model predictions more interpretable for clinical applications.
 * Investigating the noticeable difference between CV score (0.529) and LB score (0.461) which may indicate overfitting.
 * Applying better ensemble techniques.
@@ -139,19 +140,18 @@ To replicate the analysis and model training:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/maxthenobody/Kaggle.Childmind.git](https://github.com/maxthenobody/Kaggle.Childmind.git)
-    cd Kaggle.Childmind
+    git clone [https://github.com/maxthenobody/kaggle-childmind.git](https://github.com/maxthenobody/kaggle-childmind.git)
+    cd kaggle-childmind
     ```
 2.  **Download the dataset:**
     * You will need to join the [Child Mind Institute Problematic Internet Use competition](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use) on Kaggle.
     * Download the data and place it in the appropriate directories.
 3.  **Create a virtual environment and install dependencies:**
     ```bash
-    conda create -n childmind python=3.9 # or venv
+    conda create -n childmind python=3.12 # or venv
     conda activate childmind
     pip install -r requirements.txt
     ```
-    *(Self-note: Ensure you have a `requirements.txt` file listing all libraries used, e.g., `tensorflow`, `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `nibabel`, `nilearn`)*
 4.  **Run the Jupyter Notebook:**
     ```bash
     jupyter notebook "Kaggle Childmind Project.ipynb"
@@ -159,6 +159,7 @@ To replicate the analysis and model training:
     Follow the steps in the notebook to execute the data processing, model training, and evaluation.
 
 ## 8. Repository Structure
+* main: 
 
 
 
