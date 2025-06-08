@@ -158,10 +158,6 @@ To replicate the analysis and model training:
     ```
     Follow the steps in the notebook to execute the data processing, model training, and evaluation.
 
-## 8. Repository Structure
-* main: 
-
-
 
 
 
