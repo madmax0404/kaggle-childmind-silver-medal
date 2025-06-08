@@ -102,6 +102,7 @@ This project followed a comprehensive machine learning pipeline:
   
 5.  **Hyperparameter Tuning & Feature Selection:**
     * Used Optuna for hyperparameter tuning, a state-of-the-art open source library for automated hyperparameter search. https://optuna.org/
+    * ![Optuna hyperparameter tuning](<images/Screenshot from 2025-06-08 17-43-57.png>)
     * Used SHAP(SHapley Additive exPlanations) for feature selection, a state-of-the-art open source library for explaining machine learning model outputs. https://shap.readthedocs.io/
 
 6.  **Model Evaluation:**
