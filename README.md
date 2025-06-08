@@ -220,15 +220,15 @@ This project followed a comprehensive machine learning pipeline:
     * Loaded and understood the various data formats (parquet for actigraphy, CSV for tabular data).
     * Performed initial sanity checks and basic statistical analyses.
 
-2.  **Data Preprocessing & Feature Engineering Hightlights:**
+2.  **Data Preprocessing & Feature Engineering Highlights:**
     * **Actigraphy Data:** Extracted robust statistical features from various and unique data aggregation.
     * **Tabular Data:** Handled missing values, encoded categorical features, and engineered meaningful features.
     * **Data Integration:** Developed strategies to combine features extracted from actigraphy with demographic and behavioral data into a unified dataset for model training.
 
 3.  **Model Selection & Architecture:**
     * Explored various machine learning models suitable for classification.
-    * Gradient boosting decision tree models such as XGBoost, LightGBM, Catboost were used and ensmebled.
-    * Even though it's a classification problem, the target variable is ordinal, hence regression models were used and the predictions were postprocessed into classses using SciPy's scipy.optimize.minimize method which finds optimal thresholds.
+    * Gradient boosting decision tree models such as XGBoost, LightGBM, Catboost were used and ensembled.
+    * Even though it's a classification problem, the target variable is ordinal, hence regression models were used and the predictions were post-processed into classes using SciPy's scipy.optimize.minimize method which finds optimal thresholds.
 
 4.  **Training & Validation:**
     * Utilized StratifiedKFold to ensure model generalization.
@@ -253,8 +253,8 @@ This project followed a comprehensive machine learning pipeline:
 
 * **Achieved QWK Score:** My model achieved a QWK score of **0.461** on the final test set, demonstrating moderate performance. However, considering the #1 winner of the competition's score is 0.482, it seems meaningful improvements are not feasible with the given dataset.
 * **[My Key Insight 1]:** The integration of actigraphy data meaningfully improved model performance, suggesting a synergistic effect with demographic features.
-* **[My Key Insight 2]:** Given the high proportion of null values in the dataset and only a limited number of participants were given an accelerometer, moderate model performance was expected. With a better quality data, high performing model creation seems certainly achievable.
-* **Model Performance Visualization Example Image:**
+* **[My Key Insight 2]:** Given the high proportion of null values in the dataset and only a limited number of participants were given an accelerometer, moderate model performance was expected. With better quality data, high performing model creation seems certainly achievable.
+* **Model Performance:**
     * ![Training and validation loss & validation QWK score](<images/Screenshot from 2025-06-08 19-49-23.png>)
 * Deep learning model (TabNet) didn't work.
 
