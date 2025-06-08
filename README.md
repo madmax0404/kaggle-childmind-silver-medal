@@ -119,7 +119,7 @@ This project followed a comprehensive machine learning pipeline:
 * **Achieved QWK Score:** My model achieved a QWK score of **0.461** on the final test set, demonstrating moderate performance. However, considering the #1 winner of the competition's score is 0.482, it seems meaningful improvements are not feasible with the given dataset.
 * **[My Key Insight 1]:** The integration of actigraphy data meaningfully improved model performance, suggesting a synergistic effect with demographic features.
 * **[My Key Insight 2]:** Given the high proportion of null values in the dataset and only a limited number of participants were given an accelerometer, moderate model performance was expected. With a better quality data, high performing model creation seems certainly achievable.
-* **Model Performance Visualization:**
+* **Model Performance Visualization Example Image:**
     * ![Training and validation loss & validation QWK score](<images/Screenshot from 2025-06-08 19-49-23.png>)
 
 ## 6. Conclusion & Future Work
