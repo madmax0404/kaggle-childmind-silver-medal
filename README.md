@@ -29,7 +29,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 단독으로 참여하였고, 은메달(상위 1.5%)을 수상하였습니다.
 
-자세한 내용은 아래 영어로 작성된 README를 참조해주세요.
+자세한 내용은 아래를 참조해주세요.
 
 ## 1. 프로젝트 개요
 
