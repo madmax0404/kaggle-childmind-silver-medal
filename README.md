@@ -102,6 +102,7 @@ This project followed a comprehensive machine learning pipeline:
   
 5.  **Hyperparameter Tuning & Feature Selection:**
     * Used Optuna for hyperparameter tuning, a state-of-the-art open source library for automated hyperparameter search. https://optuna.org/
+    * Example Images:
         * ![Optuna hyperparameter tuning 1](<images/Screenshot from 2025-06-08 17-43-57.png>)
         * ![Optuna hyperparameter tuning 2](<images/learning_rate_optuna_visualization.png>)
         * ![Optuna hyperparameter tuning 3](<images/max_depth_optuna_visualization.png>)
