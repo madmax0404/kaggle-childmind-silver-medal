@@ -114,7 +114,7 @@ This project followed a comprehensive machine learning pipeline:
 * **[My Key Insight 1]:** The integration of actigraphy data meaningfully improved model performance, suggesting a synergistic effect with demographic features.
 * **[My Key Insight 2]:** Given the high proportion of null values in the dataset and only a limited number of participants were given an accelerometer, moderate model performance was expected. With a better quality data, high performing model creation seems certainly achievable.
 * **Model Performance Visualization:**
-    * ![AUC ROC Curve](images/roc_curve.png)
+    * ![AUC ROC Curve](images/"Screenshot from 2025-06-08 19-49-23.png")
     * ![Training Loss & Accuracy](images/training_plot.png)
     * ![Confusion Matrix](images/confusion_matrix.png)
     * *(Self-note: Replace `images/` with the actual path to your saved plots and ensure these plots are clear and professional.)*
