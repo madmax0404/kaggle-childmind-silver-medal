@@ -60,7 +60,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
     Parent-Child Internet Addiction Test - 강박성, 도피, 의존성 등 인터넷의 강박적인 사용과 관련된 특성 및 행동을 측정하는 20개 항목 척도.
 
     ### 액티그래피 파일 및 칼럼 설명 ###
-    BN 연구에 참여하는 동안 일부 참가자들은 가정에서 일상생활을 하는 동안 최대 30일간 지속적으로 착용할 수 있는 가속도계를 지급받았습니다.
+    HBN 연구에 참여하는 동안 일부 참가자들은 가정에서 일상생활을 하는 동안 최대 30일간 지속적으로 착용할 수 있는 가속도계를 지급받았습니다.
 
     series_{train|test}.parquet/id={id} - 각 시리즈는 여러 날에 걸쳐 한 명의 피험자에 대한 연속적인 가속도계 데이터 기록이며, ID별로 분할되어 훈련 데이터로 사용됩니다.
     id - train/test.csv 파일의 id 필드에 해당하는 환자 식별자.
