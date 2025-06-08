@@ -102,8 +102,12 @@ This project followed a comprehensive machine learning pipeline:
   
 5.  **Hyperparameter Tuning & Feature Selection:**
     * Used Optuna for hyperparameter tuning, a state-of-the-art open source library for automated hyperparameter search. https://optuna.org/
-    * ![Optuna hyperparameter tuning](<images/Screenshot from 2025-06-08 17-43-57.png>)
+        * ![Optuna hyperparameter tuning 1](<images/Screenshot from 2025-06-08 17-43-57.png>)
+        * ![Optuna hyperparameter tuning 2](<images/learning_rate_optuna_visualization.png>)
+        * ![Optuna hyperparameter tuning 3](<images/max_depth_optuna_visualization.png>)
+        * ![Optuna hyperparameter tuning 4](<images/subsample_optuna_visualization.png>)
     * Used SHAP(SHapley Additive exPlanations) for feature selection, a state-of-the-art open source library for explaining machine learning model outputs. https://shap.readthedocs.io/
+        * ![SHAP feature selection](<images/images/feature_importance.png>)
 
 6.  **Model Evaluation:**
     * Evaluated the final model performance on an unseen test set using QWK, the primary competition metric.
@@ -116,9 +120,6 @@ This project followed a comprehensive machine learning pipeline:
 * **[My Key Insight 2]:** Given the high proportion of null values in the dataset and only a limited number of participants were given an accelerometer, moderate model performance was expected. With a better quality data, high performing model creation seems certainly achievable.
 * **Model Performance Visualization:**
     * ![Training and validation loss & validation QWK score](<images/Screenshot from 2025-06-08 19-49-23.png>)
-    * ![Training Loss & Accuracy](images/training_plot.png)
-    * ![Confusion Matrix](images/confusion_matrix.png)
-    * *(Self-note: Replace `images/` with the actual path to your saved plots and ensure these plots are clear and professional.)*
 
 ## 6. Conclusion & Future Work
 
