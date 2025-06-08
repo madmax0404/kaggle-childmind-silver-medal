@@ -127,7 +127,7 @@ This project successfully developed a predictive model for Problematic Internet 
 * Integrating external datasets for transfer learning or data augmentation.
 * Conducting more in-depth feature importance analysis to identify critical biomarkers of PIU.
 * Investigating explainable AI (XAI) techniques to make model predictions more interpretable for clinical applications.
-* Investigating the noticeable difference between CV score (0.525) and LB score (0.461) which may indicate overfitting.
+* Investigating the noticeable difference between CV score (0.529) and LB score (0.461) which may indicate overfitting.
 * Applying better ensemble techniques.
 
 ## 7. How to Run This Project
