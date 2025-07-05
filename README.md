@@ -21,6 +21,8 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 # 한국어
 
+## 0. 본 프로젝트에서 사용된 샘플 코드들을 보고싶다면 notebooks/sample_notebooks 폴더를 참고해 주세요.
+
 ## 1. 프로젝트 개요
 
 본 프로젝트에서는 Child Mind Institute에서 주최한 Kaggle 경진대회에 참여하여 아동 및 청소년의 인구 통계 신체 데이터, 설문, 액티그래피 측정 기록 데이터 등를 활용하여 문제성 인터넷 사용(PIU)을 예측하는 머신러닝 모델을 개발했습니다.
