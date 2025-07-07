@@ -134,8 +134,8 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 1.  **Repository 복제:**
     ```bash
-    git clone [https://github.com/maxthenobody/kaggle-childmind.git](https://github.com/maxthenobody/kaggle-childmind.git)
-    cd kaggle-childmind
+    git clone [https://github.com/maxthenobody/kaggle-childmind-silver-medal.git](https://github.com/maxthenobody/kaggle-childmind-silver-medal.git)
+    cd kaggle-childmind-silver-medal
     ```
 2.  **데이터셋 다운로드:**
     * 캐글에서 대회에 참가하세요. [Child Mind Institute Problematic Internet Use competition](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use)
@@ -148,7 +148,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
     ```
 4.  **Jupyter Notebook을 실행해주세요:**
     ```bash
-    jupyter notebook "Kaggle Childmind Project.ipynb"
+    jupyter notebook notebooks/sample_notebooks
     ```
     데이터 처리, 모델 훈련 및 평가를 실행하려면 노트북의 단계를 따르세요.
 
@@ -267,8 +267,8 @@ To replicate the analysis and model training:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/maxthenobody/kaggle-childmind.git](https://github.com/maxthenobody/kaggle-childmind.git)
-    cd kaggle-childmind
+    git clone [https://github.com/maxthenobody/kaggle-childmind-silver-medal.git](https://github.com/maxthenobody/kaggle-childmind-silver-medal.git)
+    cd kaggle-childmind-silver-medal
     ```
 2.  **Download the dataset:**
     * You will need to join the [Child Mind Institute Problematic Internet Use competition](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use) on Kaggle.
@@ -281,7 +281,7 @@ To replicate the analysis and model training:
     ```
 4.  **Run the Jupyter Notebook:**
     ```bash
-    jupyter notebook "Kaggle Childmind Project.ipynb"
+    jupyter notebook notebooks/sample_notebooks
     ```
     Follow the steps in the notebook to execute the data processing, model training, and evaluation.
 
