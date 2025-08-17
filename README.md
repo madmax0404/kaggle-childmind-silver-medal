@@ -163,3 +163,24 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
     jupyter notebook notebooks/sample_notebooks
     ```
     데이터 처리, 모델 훈련 및 평가를 실행하려면 노트북의 단계를 따르세요.
+
+---
+
+## Acknowledgements
+
+데이터셋과 대회 플랫폼을 제공한 Child Mind Institute과 Kaggle에 감사드립니다.
+
+본 프로젝트는 다음 오픈소스의 도움을 받았습니다: LightGBM, XGBoost, CatBoost, Optuna, SHAP, scikit-learn, pandas, numpy, matplotlib, seaborn, Jupyter, Polars, SciPy.
+
+모든 데이터 이용은 대회 규정과 라이선스를 준수합니다.
+
+---
+
+## License
+
+Code © 2025 Jongyun Han (Max). Released under the MIT License.
+See the LICENSE file for details.
+
+Note: Datasets are NOT redistributed in this repository.
+Please download them from the official Kaggle competition page
+and comply with the competition rules/EULA.
