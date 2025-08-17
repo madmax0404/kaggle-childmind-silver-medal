@@ -4,7 +4,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-# 기술 스택 (Tech Stack)
+## 기술 스택 (Tech Stack)
 
 * **Language**: Python
 * **ML Models**: XGBoost, LightGBM, Catboost
@@ -20,9 +20,11 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-## 본 프로젝트에서 사용된 샘플 코드들을 보고싶다면 notebooks/sample_notebooks 폴더를 참고해 주세요.
+### 본 프로젝트에서 사용된 샘플 코드들을 보고싶다면 notebooks/sample_notebooks 폴더를 참고해 주세요.
 
-# 프로젝트 개요
+---
+
+## 프로젝트 개요
 
 본 프로젝트에서는 Child Mind Institute에서 주최한 Kaggle 경진대회에 참여하여 아동 및 청소년의 인구 통계 신체 데이터, 설문, 액티그래피 측정 기록 데이터 등를 활용하여 문제성 인터넷 사용(PIU)을 예측하는 머신러닝 모델을 개발했습니다.
 
@@ -32,13 +34,13 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-# 문제
+## 문제
 
 문제성 인터넷 사용(PIU)은 아동 및 청소년의 정신 건강과 일상 기능에 영향을 미치는 문제이며, 이에 대해 커져가는 우려가 있습니다. PIU의 조기 식별은 효과적인 개입을 위해 매우 중요합니다. 본 프로젝트는 활동량 기록(actigraphy), 인구 통계 및 행동 데이터와 같은 여러 데이터 소스의 복합적인 특징을 분석하여 PIU를 정확하게 분류하는 예측 모델을 만드는 것을 목표로 했습니다.
 
 ---
 
-# 데이터셋
+## 데이터셋
 
 캐글을 통해 Child Mind Institute가 제공한 데이터셋은 아래를 포함합니다:
 
@@ -75,7 +77,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-# 방법론 및 접근 방식
+## 방법론 및 접근 방식
 
 본 프로젝트는 포괄적인 머신러닝 파이프라인을 따랐습니다:
 
@@ -114,7 +116,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-# 결과 및 주요 관찰
+## 결과 및 주요 관찰
 
 * **달성한 QWK 점수:** 제 모델은 최종 테스트 세트에서 0.461의 QWK 점수를 달성하여 준수한 성능을 보였습니다. 그러나 대회 1위 모델의 점수가 0.482인 점을 고려할 때, 주어진 데이터셋으로는 더 이상의 의미 있는 성능 개선은 어려워 보입니다.
 * **[핵심 관찰 1]:** 활동량 측정 데이터의 통합은 모델 성능을 의미 있게 향상시켰으며, 이는 인구 통계학적 특성과의 시너지 효과를 시사합니다.
@@ -125,7 +127,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-# 결론 및 향후 과제
+## 결론 및 향후 과제
 
 본 프로젝트는 문제성 인터넷 사용(PIU) 예측 모델을 성공적으로 개발하여, 복잡한 데이터를 다루고 분류를 위해 머신러닝 기술을 적용하는 능숙함을 보여주었습니다. 얻어진 관찰은 정신 건강 진단에 있어 데이터 기반 접근 방식의 잠재력을 부각시킵니다.
 
@@ -138,7 +140,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
-# 프로젝트 실행 방법
+## 프로젝트 실행 방법
 
 분석 및 모델 훈련 재현 방법:
 
