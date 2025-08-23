@@ -100,13 +100,13 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
     * 과적합을 방지하기 위한 기술(예: 드롭아웃, 조기 종료, L1/L2 정규화)을 적용했습니다.
   
 5.  **하이퍼파라미터 튜닝 및 특징 선택:**
-    * 자동화된 하이퍼파라미터 탐색을 위한 최첨단 오픈 소스 라이브러리인 Optuna를 사용하여 하이퍼파라미터 튜닝을 진행했습니다. https://optuna.org/
+    * 자동화된 하이퍼파라미터 탐색을 위한 최첨단 오픈 소스 라이브러리인 **Optuna**를 사용하여 하이퍼파라미터 튜닝을 진행했습니다. https://optuna.org/
     * 예시 이미지들:
         * ![Optuna Dashboard](<images/Screenshot from 2025-06-08 17-43-57.png>)
         * ![Optuna hyperparameter tuning 1](<images/learning_rate_optuna_visualization.png>)
         * ![Optuna hyperparameter tuning 2](<images/max_depth_optuna_visualization.png>)
         * ![Optuna hyperparameter tuning 3](<images/subsample_optuna_visualization.png>)
-    * 머신러닝 모델 결과 설명을 위한 최첨단 오픈 소스 라이브러리인 **SHAP(SHapley Additive exPlanations)**을 특징 선택에 사용했습니다. https://shap.readthedocs.io/
+    * 머신러닝 모델 결과 설명을 위한 최첨단 오픈 소스 라이브러리인 **SHAP**(SHapley Additive exPlanations)을 특징 선택에 사용했습니다. https://shap.readthedocs.io/
         * ![SHAP feature importance](<images/feature_importance.png>)
 
 6.  **모델 평가:**
