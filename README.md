@@ -165,6 +165,16 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
+## 프로젝트 구조
+    kaggle-childmind-silver-medal/
+    ├── images/
+    ├── notebooks/                                    # Jupyter Notebook으로 작성한 코드들
+    │   ├── all_notebooks/                            # 모든 코드들이 있는 노트북들
+    │   └── sample_notebooks/                         # 대표적 코드들이 있는 선별된 노트북들
+    └── tabnet/                                       # TabNet 실험 노트북들
+
+---
+
 ## Acknowledgements
 
 데이터셋과 대회 플랫폼을 제공한 Child Mind Institute과 Kaggle에 감사드립니다.
