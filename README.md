@@ -1,21 +1,20 @@
-# Kaggle
-# Child Mind Institute — Problematic Internet Use (PIU)
+# Kaggle: Child Mind Institute — Problematic Internet Use (PIU)
 https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use
 
 ---
 
-## 기술 스택 (Tech Stack)
+## 기술 스택
 
-* **Language**: Python
-* **ML Models**: XGBoost, LightGBM, Catboost
-* **Hyperparameter Tuning**: Optuna
-* **Feature Selection**: SHAP
-* **Imputation**: KNNImputer (Scikit-learn)
-* **Data Manipulation & Analysis:** Pandas, NumPy, Polars
-* **Scientific Computing:** SciPy
-* **Visualization**: Matplotlib, Seaborn, Optuna Dashboard
-* **Cross-validation**: StratifiedKFold (Scikit-learn)
-* **OS**: Linux (Ubuntu Desktop 24.04 LTS)
+* **언어**: Python
+* **기계학습 모델들**: XGBoost, LightGBM, Catboost
+* **하이퍼파라미터 튜닝**: Optuna
+* **특징 선택(Feature Selection)**: SHAP
+* **결측치 대체(Imputation)**: KNNImputer (Scikit-learn)
+* **데이터 처리 및 분석:** Pandas, NumPy, Polars
+* **과학적 계산:** SciPy
+* **시각화**: Matplotlib, Seaborn, Optuna Dashboard
+* **교차 검증(Cross-validation)**: StratifiedKFold (Scikit-learn)
+* **운영체제**: Linux (Ubuntu Desktop 24.04 LTS)
 * **IDE**: VSCode, Jupyter Notebook
 
 ---
@@ -170,7 +169,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 데이터셋과 대회 플랫폼을 제공한 Child Mind Institute과 Kaggle에 감사드립니다.
 
-본 프로젝트는 다음 오픈소스의 도움을 받았습니다: LightGBM, XGBoost, CatBoost, Optuna, SHAP, scikit-learn, pandas, numpy, matplotlib, seaborn, Jupyter, Polars, SciPy.
+본 프로젝트는 다음 오픈소스의 도움을 받았습니다: Python, LightGBM, XGBoost, CatBoost, Optuna, SHAP, scikit-learn, pandas, numpy, matplotlib, seaborn, Jupyter, Polars, SciPy.
 
 모든 데이터 이용은 대회 규정과 라이선스를 준수합니다.
 
