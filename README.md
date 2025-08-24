@@ -177,7 +177,7 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ## Acknowledgements
 
-데이터셋과 대회 플랫폼을 제공한 Child Mind Institute과 Kaggle에 감사드립니다.
+데이터셋과 대회 플랫폼을 제공한 Child Mind Institute와 Kaggle에 감사드립니다.
 
 본 프로젝트는 다음 오픈소스의 도움을 받았습니다: Python, LightGBM, XGBoost, CatBoost, Optuna, SHAP, scikit-learn, pandas, numpy, matplotlib, seaborn, Jupyter, Polars, SciPy.
 
