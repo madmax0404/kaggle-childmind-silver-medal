@@ -1,4 +1,7 @@
-# Kaggle 대회: Child Mind Institute — Problematic Internet Use (PIU)
+# Child Mind Institute — Problematic Internet Use (PIU)
+
+Kaggle 대회
+
 https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use
 
 ---
