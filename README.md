@@ -6,6 +6,20 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 
 ---
 
+### 본 프로젝트에서 사용된 샘플 코드들을 보고싶다면 notebooks/sample_notebooks 폴더를 참고해 주세요.
+
+---
+
+## 프로젝트 개요
+
+본 프로젝트에서는 Child Mind Institute에서 주최한 Kaggle 경진대회에 참여하여 아동 및 청소년의 인구 통계 신체 데이터, 설문, 액티그래피 측정 기록 데이터 등를 활용하여 문제성 인터넷 사용(PIU)을 예측하는 머신러닝 모델을 개발했습니다.
+
+단독으로 참여하였고, 은메달(상위 1.5%)을 수상하였습니다.
+
+청소년들의 PIU(잠재적 인터넷 중독) 위험을 식별하는 강력한 분류 모델을 구축하여, 조기 개입 전략을 세우고 정신 건강 결과를 개선하는 것이 주된 목표였습니다.
+
+---
+
 ## 기술 스택
 
 * **언어**: Python
@@ -19,20 +33,6 @@ https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-us
 * **교차 검증(Cross-validation)**: StratifiedKFold (Scikit-learn)
 * **운영체제**: Linux (Ubuntu Desktop 24.04 LTS)
 * **IDE**: VSCode, Jupyter Notebook
-
----
-
-### 본 프로젝트에서 사용된 샘플 코드들을 보고싶다면 notebooks/sample_notebooks 폴더를 참고해 주세요.
-
----
-
-## 프로젝트 개요
-
-본 프로젝트에서는 Child Mind Institute에서 주최한 Kaggle 경진대회에 참여하여 아동 및 청소년의 인구 통계 신체 데이터, 설문, 액티그래피 측정 기록 데이터 등를 활용하여 문제성 인터넷 사용(PIU)을 예측하는 머신러닝 모델을 개발했습니다.
-
-단독으로 참여하였고, 은메달(상위 1.5%)을 수상하였습니다.
-
-청소년들의 PIU(잠재적 인터넷 중독) 위험을 식별하는 강력한 분류 모델을 구축하여, 조기 개입 전략을 세우고 정신 건강 결과를 개선하는 것이 주된 목표였습니다.
 
 ---
 
